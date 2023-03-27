@@ -1,5 +1,15 @@
+MAC
 python3 manage.py runserver
 source env/bin/activate
 python3 manage.py startapp myapp
 django-admin startproject myproject
 python3 manage.py migrate
+
+WINDOWS
+python -m venv env
+env\Scripts\activate
+pip install django
+python manage.py runserver
+python manage.py startapp myapp
+django-admin startproject myproject
+python manage.py migrate
