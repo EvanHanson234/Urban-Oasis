@@ -1,0 +1,5 @@
+python3 manage.py runserver
+source env/bin/activate
+python3 manage.py startapp myapp
+django-admin startproject myproject
+python3 manage.py migrate
